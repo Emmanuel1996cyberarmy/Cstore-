@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        
+        .form{
+            color: rgb(208, 255, 0);
+            padding: 10px 100px;
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form">
+        <h2>Drop me a message.</h2>
+        <form method="post" action="mailto:agberoryina@gmail.com">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="mobile">Mobile Number</label><br>
+            <input type="number"><br>
+            <textarea name="comment" form="usrform">Enter text here...</textarea><br>
+            <input type="submit" value="Submit" formaction="mailto:agberoryina@gmail.com">
+            
+         </form>
+
+    </div>
+  
+    <a href="#"><button onclick="history.back()">Go Back</button></a>
+
+    
+</body>
+</html>
